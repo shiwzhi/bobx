@@ -91,11 +91,6 @@ def return_html(jpg_lists):
 
 	return first_html+jpg_html+second_html
 
-def return_txt(jpg_lists):
-	txt = ''
-	for i in jpg_lists:
-		txt = txt + i + "\n"
-	return txt
 
 def main():
 	reload(sys)
